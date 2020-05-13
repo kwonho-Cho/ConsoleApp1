@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\bin\Debug\LearnCS4.exe.config
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\bin\Debug\LearnCS4.exe
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\bin\Debug\LearnCS4.pdb
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\obj\Debug\LearnCS4.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\obj\Debug\LearnCS4.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\obj\Debug\LearnCS4.exe
+C:\Users\Administrator\source\repos\ConsoleApp1\LearnCS4\obj\Debug\LearnCS4.pdb
