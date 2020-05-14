@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Arithmatics.cs" />
     <Compile Include="BasicNeeds.cs" />
+    <Compile Include="Child.cs" />
+    <Compile Include="Parents.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

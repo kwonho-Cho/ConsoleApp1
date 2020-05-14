@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,33 +56,54 @@ namespace LearnCS5
                 //컴파일러에서 에러가 발생한다.
             }
 
-            Student student = new Student();
-            WorkMan workMan = new WorkMan();
+            { 
+            //Student student = new Student();
+            //WorkMan workMan = new WorkMan();
 
 
-            Question.AskUsersJop();
-            while (true)
-            {
-                Question.AskUsersDoing();
+            //Question.AskUsersJop();
+            //while (true)
+            //{
+            //    Question.AskUsersDoing();
 
-                if(Question.typeofTime[Question.select-1] == 999)
-                {
-                    break;
-                }
+            //    if(Question.typeofTime[Question.select-1] == 999)
+            //    {
+            //        break;
+            //    }
 
-                switch (Question.select)
-                {
-                    case 1:
-                        student.WhatTime(Question.typeofTime[Question.select-1]);
-                        break;
-                    case 2:
-                        workMan.WhatTime(Question.typeofTime[Question.select-1]);
-                        break;
-                }
-            }
-            
-            
+            //    switch (Question.select)
+            //    {
+            //        case 1:
+            //            student.WhatTime(Question.typeofTime[Question.select-1]);
+            //            break;
+            //        case 2:
+            //            workMan.WhatTime(Question.typeofTime[Question.select-1]);
+            //            break;
+            //    }
+            //}
 
+
+            //WorkMan worker = new WorkMan();
+            //Student stu = new Student();
+
+            //eTypeJob job = Question.AskJob();
+            //switch (job)
+            //{
+            //    case eTypeJob.Student:
+            //        Question.WhatTime(job, stu);
+            //        break;
+            //    case eTypeJob.OfficeWorkers:
+            //        Question.WhatTime(job, worker);
+            //        break;
+            //}
+        }
+
+            Child man = new Child("홍길동", 18, 171.4f, 71.2f);
+            //protected InitData의 경우엔 상속받는 Child클래스 내부에서 마음껏 사용할 수 있지만, Child내에 있는 함수로 취급되지 않기때문에
+            //객체를 생성해서 불러 올 수 없다.
+           // man.Initialize("홍길동", 18, 171.4f, 71.2f);
+            man.ShowInfo();
+            //man.ShowBase();
         }
         
         //클래스에는 기본생성자가 내재되어있다. 다만, 프로그래머가 생성자를 설정할 경우가 우선되며 그에따라 내재되는 기본생성자는 무시된다
